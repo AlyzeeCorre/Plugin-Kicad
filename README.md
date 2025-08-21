@@ -49,7 +49,6 @@ The modern and interactive interface provides a comparative analysis across mult
 4. You can:  
    - Export the results to **CSV**  
    - Open the **About** dialog for credits and source  
-   - Close the analysis window  
 
 ---
 
