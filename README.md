@@ -32,7 +32,7 @@ The modern and interactive interface provides a comparative analysis across mult
 
 3. Restart KiCad (PCB Editor).  
    The plugin will appear in the menu:  
-   `Tools → External Plugins → version 14`  
+   `Tools → External Plugins → PCB Carbon Footprint Tool`  
 
 ---
 
@@ -40,7 +40,7 @@ The modern and interactive interface provides a comparative analysis across mult
 
 1. Open a **PCB in KiCad PCB Editor** (version 6 or newer).  
 2. Run the plugin:  
-   - From the **Tools menu** → `version 14`  
+   - From the **Tools menu** → `PCB Carbon Footprint Tool`  
    - Or from the **toolbar button** (if enabled).  
 3. A new window will display:
    - Key PCB information (surface area, layers, current impact).  
@@ -57,9 +57,7 @@ The modern and interactive interface provides a comparative analysis across mult
 
 The carbon footprint is estimated based on PCB surface area and copper layers, using the formula derived from the [PCBnCO](https://hal.science/hal-05054490v1/document) publication:
 
-\[
-Impact = (7.81 \times \text{layers} + 57.97) \times \text{surface (m²)}
-\]
+`Impact = (7.81 × layers + 57.97) × surface (m²)`
 
 - Surface is converted from cm² to m².  
 - Supported number of layers ranges from 1 to 20.  
