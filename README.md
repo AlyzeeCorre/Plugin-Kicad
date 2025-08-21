@@ -5,7 +5,7 @@ The modern and interactive interface provides a comparative analysis across mult
 
 ---
 
-## ✨ Features
+## Features
 
 - Automatically calculates the **current carbon footprint** of the open PCB.
 - Displays an **interactive comparison grid**:
@@ -21,7 +21,7 @@ The modern and interactive interface provides a comparative analysis across mult
 
 ---
 
-## ⚙️ Installation
+## Installation
 
 1. Locate KiCad’s user plugin directory:  
    - **Linux**: `~/.local/share/kicad/scripting/plugins/`  
@@ -36,7 +36,7 @@ The modern and interactive interface provides a comparative analysis across mult
 
 ---
 
-## 🚀 Usage
+## Usage
 
 1. Open a **PCB in KiCad PCB Editor** (version 6 or newer).  
 2. Run the plugin:  
@@ -53,7 +53,7 @@ The modern and interactive interface provides a comparative analysis across mult
 
 ---
 
-## 📐 Calculation Method
+## Calculation Method
 
 The carbon footprint is estimated based on PCB surface area and copper layers, using the formula derived from the [PCBnCO](https://hal.science/hal-05054490v1/document) publication:
 
@@ -66,7 +66,7 @@ Impact = (7.81 \times \text{layers} + 57.97) \times \text{surface (m²)}
 
 ---
 
-## 🛠️ Dependencies
+## Dependencies
 
 The plugin only requires:
 - **KiCad API** (`pcbnew`)  
@@ -77,7 +77,7 @@ No additional installation is needed.
 
 ---
 
-## 👩‍💻 Credits
+## Credits
 
 - Developed by **Alyzée Corre**  
 - Supervised by **Pierre Le Gargasson**  
@@ -89,7 +89,7 @@ Scientific reference:
 
 ---
 
-## 📜 License
+## License
 
 This project is provided for educational and academic purposes.  
 (Consider adding an open-source license such as MIT or GPL if publishing publicly.)  
