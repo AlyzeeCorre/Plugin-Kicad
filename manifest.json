@@ -1,0 +1,20 @@
+{
+  "name": "PCB_Environnemental_Impact",
+  "description": "A KiCad plugin to estimate the carbon footprint (kg CO₂e) of a PCB based on its surface area and number of copper layers. The modern and interactive interface provides a comparative analysis across multiple scenarios.",
+  "version": "1.0.0",
+  "author": "Alyzée Corre",
+  "license": "MIT",
+  "type": "plugin",
+  "platform": ["all"],
+  "url": "https://github.com/AlyzeeCorre/Plugin-Kicad",
+  "keywords": ["kicad", "pcb", "carbon footprint", "environment", "plugin"],
+  "dependencies": [],
+  "install": {
+    "copy": [
+      {
+        "source": "*",
+        "destination": "."
+      }
+    ]
+  }
+}
